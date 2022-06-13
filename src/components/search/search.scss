@@ -1,0 +1,22 @@
+@import '../../style/variables.scss';
+
+.search{
+  width: 60%;
+  padding: 15px 15px 15px 50px;
+  box-sizing: border-box;
+  margin: 20px auto;
+  &-input {
+    border: 0;
+    padding: 7px;
+    outline: none;
+    background-color: #fff;
+    width: 100%;
+    font-size: 16px;
+    color: $grey;
+    margin-left: 1%;
+    border-radius: 5px;
+    transition: all 0.6s ease;
+
+
+  }
+}
